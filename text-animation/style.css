@@ -1,0 +1,21 @@
+header {
+  /*下記はレイアウトを整えるものです*/
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: #333;
+}
+
+h1 {
+  color: #fff; /*お好きなフォントカラーを選んでください*/
+  font-size: 80px; /*お好きなフォントサイズを選んでください*/
+  font-family: "Times New Roman", Times, serif; /*お好きなフォントを選んでください*/
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  line-height: 1; /*line-heightなくしたほうがカッコ良くなります*/
+}
+
+.char {
+  transform: translateY(100px);
+  transition: transfrom 0.5s;
+  /* transform: translateY(-100px); テキストを上から出したい時*/
+}
