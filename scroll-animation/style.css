@@ -1,0 +1,36 @@
+/* resetcssは省略 */
+body {
+  background-color: black;
+}
+
+.fv {
+  width: 100vw;
+  height: 100vh;
+}
+
+.layout {
+  width: fit-content;
+  margin: auto;
+  padding: 200px 16px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 0px 40px;
+  margin-top: 120px;
+}
+
+.wrapper {
+  max-width: 600px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  max-width: 600px;
+  color: #fff;
+}
